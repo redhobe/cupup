@@ -2,7 +2,7 @@
   <div id="app">
     <Sidebar/>
     <div class="wrapper">
-      <p>Привет мир</p>
+      <p>Приветbr мир</p>
 
     </div>
   </div>
@@ -22,7 +22,7 @@ export default {
 <style lang="scss">
 #app {
   width:100%;
-  height:2000px;
+  height: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -35,6 +35,7 @@ export default {
 }
 
   .wrapper{
+    height:2000px;
 
   }
 </style>
